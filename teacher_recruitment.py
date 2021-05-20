@@ -90,7 +90,7 @@ def get_html(url):
 
             if len(title_set) == 0:
                 title = "爬取出错了，请检查"
-                message_url = "https://sc.ftqq.com/SCU54509Tcad1c6121a054925bb4780cea07f3c355d1a1299a8bb2.send"
+                message_url = "https://sc.ftqq.com/.send"
                 requests.get(message_url + title)
 
             titles = []
